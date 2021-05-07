@@ -18,6 +18,9 @@
         <h1 class="text-center text-light">Adventure awaits you!</h1>
     </div>
     <div class="container">
+        <div class="d-flex justify-content-center my-3">
+            <a href= "create.php" class="btn btn-primary">Add Trips</a>
+        </div>
         <div class="row justify-content-evenly py-2">
             <?php
             include_once 'actions/db_connect.php';
