@@ -33,7 +33,7 @@
             foreach($set as $value)
             {
                 $image = '';
-                if(strlen($value['picture']) < 18)
+                if(strlen($value['picture']) < 19)
                 {
                     $image = 'pictures/'.$value['picture'];
                 } else
