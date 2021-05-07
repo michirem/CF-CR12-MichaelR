@@ -7,7 +7,8 @@ if ($_GET['id']) {
         $data = $result->fetch_assoc();
         $imagename = ''; //if image is stored as file
         $imagelink = ''; //if image is stored as URL
-        if(strlen($data['picture']) < 18) // check if image is stored as file or as URL
+        $image = '';
+        if(strlen($data['picture']) < 19) // check if image is stored as file or as URL
             {
                 $imagename = $data['picture'];
                 $image = 'pictures/'.$data['picture'];
