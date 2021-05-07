@@ -48,5 +48,6 @@
     ?>
     <!-- Bootstrap 5 JS bundle  -->
     <?php include_once 'components/bootjs.php';?>
+    <script src="js/jokes.js"></script>
 </body>
 </html>

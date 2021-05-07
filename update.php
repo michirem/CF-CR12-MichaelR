@@ -79,5 +79,6 @@ include_once 'actions/a_select.php';
     ?>
     <!-- Bootstrap 5 JS bundle  -->
     <?php include_once 'components/bootjs.php';?>
+    <script src="js/jokes.js"></script>
 </body>
 </html>
