@@ -2,7 +2,7 @@
 
 function showItem($picture, $locationName, $price, $id)
     {
-    return "<div class=\"col-16 col-md-4 col-lg-4 my-3\">
+    return "<div class=\"col-12 col-md-4 col-lg-4 my-3\">
         <div class='card border-0 shadow'>
             <div style='background-image: url(".$picture."); background-repeat: no-repeat; background-size: contain; height: 350px; background-position: center;'>
             </div>
