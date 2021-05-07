@@ -10,10 +10,10 @@
         <a class="nav-link active" aria-current="page" href="main.php">Home</a>
       </li>
       <li class="nav-item d-lg-none my-1">
-        <a class="btn btn-light" aria-current="page" href="contactus.php" role="button" data-bs-toggle="button">Contact us</a>
+        <a class="btn btn-light" aria-current="page" href="contactus.php">Contact us</a>
       </li>
     </ul>
   </div>
-  <div class="ml-auto d-none d-lg-inline-block"><a class="btn btn-light" aria-current="page" href="contactus.php" role="button" data-bs-toggle="button">Contact us</a></div>
+  <div class="ml-auto d-none d-lg-inline-block"><a class="btn btn-light" aria-current="page" href="contactus.php">Contact us</a></div>
 </div>
 </nav>
