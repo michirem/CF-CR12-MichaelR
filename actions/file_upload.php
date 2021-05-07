@@ -11,7 +11,7 @@ function file_upload($picture) {
     $fileExtension = strtolower(pathinfo($fileName,PATHINFO_EXTENSION));    
     $filesAllowed = ["png", "jpg", "jpeg", "webp"];
     if ($fileError == 4) {       
-        $result->ErrorMessage = "No picture was chosen. You can change the picture anytime by using the edit button in the Admin section.";
+        $result->ErrorMessage = "No picture was chosen. You can change the picture anytime by using the edit button.";
         return $result;
     } else {
         if (in_array($fileExtension, $filesAllowed)) {
