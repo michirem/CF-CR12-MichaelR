@@ -18,8 +18,9 @@
         <h1 class="text-center text-light">Adventure awaits you!</h1>
     </div>
     <div class="container">
-        <div class="d-flex justify-content-center my-3">
+        <div class="d-flex justify-content-evenly my-3">
             <a href= "create.php" class="btn btn-primary">Add Trips</a>
+            <a href= "webservice.php?id=" class="btn btn-primary">Get the API</a>
         </div>
         <div class="row justify-content-evenly py-2">
             <?php
